@@ -1,0 +1,31 @@
+.cart__title {
+    text-align: left;
+    margin: 1rem 0;
+}
+.headphones__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cart__all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cart__all__check {
+    flex: 0 1 auto;
+    width: 19rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    justify-content: space-around;
+}
+.cart__all__check__money {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

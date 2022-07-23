@@ -1,0 +1,46 @@
+.menuitem {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: white;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu__image img {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 3.25rem;
+}
+
+.menu__info {
+    width: 14rem;
+    margin: 0 auto;
+    margin-bottom: 1.688rem;
+}
+
+.menu__info__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.menu__info__title, .menu__info__buy {
+    font-weight: 700;
+}
+
+.prices {
+    color: #FFCE7F;
+}
+
+.prices__oldprice {
+    text-decoration: line-through;
+}
+
+.menu__info__buy:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.title {
+    margin: 1rem;
+    text-align: left;
+    color: #838383;
+}
+.headphones__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
