@@ -23,7 +23,7 @@ export default function CartItem(props) {
         <div className="cartitem">
             <div className="cart__line">
                 <div className="cart__image">
-                    <img src={`/imgs/${props.data.img}.jpg`} alt="img"/>
+                    <img src={`/headphones-store/imgs/${props.data.img}.jpg`} alt="img"/>
                 </div>
                 <div className="cart__info">
                         <div className="cart__title">

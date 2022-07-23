@@ -11,12 +11,12 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer__name">QPICK</div>
             <div className="footer__items">
-                <NavLink className="footer__items__item" to="/likes">Избранное</NavLink>
-                <NavLink className="footer__items__item" to="/cart">Корзина</NavLink>
-                <NavLink className="footer__items__item" to="/contacts">Контакты</NavLink>
+                <NavLink className="footer__items__item" to="/headphones-store/likes">Избранное</NavLink>
+                <NavLink className="footer__items__item" to="/headphones-store/cart">Корзина</NavLink>
+                <NavLink className="footer__items__item" to="/headphones-store/contacts">Контакты</NavLink>
             </div>
             <div className="footer__items2">
-                <NavLink className="footer__items2__terms" to="/terms">Условия сервиса</NavLink>
+                <NavLink className="footer__items2__terms" to="/headphones-store/terms">Условия сервиса</NavLink>
                 <div className="footer__items2__langs">
                     <div className="footer__items2__langs__earth">
                         <img src={earth} alt="earth" />

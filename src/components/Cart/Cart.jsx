@@ -23,14 +23,16 @@ export default function Cart(props) {
                 </div>
                 <div className="cart__all__check">
                     <div className="cart__all__check__money">
-                        <div className="cart__all__check__money__total">
-                            Итого
-                        </div>
-                        <div className="cart__all__check__money__count">
-                            ₽ {data.reduce((prev, cur) => prev += 
-                                cur.price * Number(sessionStorage.getItem(`prod-id${cur.id}`)), 0) +
-                                data2.reduce((prev, cur) => prev += 
-                                cur.price * Number(sessionStorage.getItem(`prod-id${cur.id}`)), 0)}
+                        <div>
+                            <div className="cart__all__check__money__total">
+                                Итого
+                            </div>
+                            <div className="cart__all__check__money__count">
+                                ₽ {data.reduce((prev, cur) => prev += 
+                                    cur.price * Number(sessionStorage.getItem(`prod-id${cur.id}`)), 0) +
+                                    data2.reduce((prev, cur) => prev += 
+                                    cur.price * Number(sessionStorage.getItem(`prod-id${cur.id}`)), 0)}
+                            </div>
                         </div>
                     </div>
                     <div className="cart__all__check__move">

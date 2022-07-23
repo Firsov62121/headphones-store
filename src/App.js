@@ -114,8 +114,8 @@ function App(props) {
         <Header likeCount="2" id="header" buyCount={getAllCount()} something={update}/>
         <div className='content-wrapper' onClick={handleRouter}>
           <Routes>
-            <Route path='/cart' element={<Cart data={data} data2={data2} />} />
-            <Route path='/' element={<Content data={data} data2={data2} />} />
+            <Route path='headphones-store/cart' element={<Cart data={data} data2={data2} />} />
+            <Route path='headphones-store/' element={<Content data={data} data2={data2} />} />
           </Routes>
         </div>
         <Footer />

@@ -12,7 +12,7 @@ export default function Menuitem(props) {
     return (
         <div className="menuitem">
             <div className="menu__image">
-                <img src={`/imgs/${props.img}.jpg`} alt="img"/>
+                <img src={`/headphones-store/imgs/${props.img}.jpg`} alt="img"/>
             </div>
             <div className="menu__info">
                 <div className="menu__info__line">

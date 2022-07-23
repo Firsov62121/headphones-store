@@ -7,15 +7,15 @@ import { NavLink } from "react-router-dom";
 export default function Header(props) {
     return (
         <header className="header" id="header">
-            <NavLink className="header__text" to="/">
+            <NavLink className="header__text" to="/headphones-store/">
                 QPICK
             </NavLink>
             <div className="header__panel">
-                <NavLink className="header__panel__img" to="/likes">
+                <NavLink className="header__panel__img" to="/headphones-store/likes">
                     <img src={heart} alt="heart" />
                     <div className="header__panel__img__count">{props.likeCount}</div>
                 </NavLink>
-                <NavLink className="header__panel__img" to="/cart">
+                <NavLink className="header__panel__img" to="/headphones-store/cart">
                 <img src={cart} alt="cart" />
                 <div className="header__panel__img__count">{props.buyCount}</div>
                 </NavLink>
