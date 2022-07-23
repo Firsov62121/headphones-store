@@ -1,6 +1,5 @@
 import React from "react";
 import CartItem from "../CartItem/CartItem";
-import Menuitem from "../CartItem/CartItem";
 import './Cart.css';
 
 export default function Cart(props) {
@@ -17,6 +16,10 @@ export default function Cart(props) {
                     .filter(prod=>Number(sessionStorage.getItem(`prod-id${prod.id}`)) > 0)
                     .map(prod => <CartItem data={prod} key={prod.id} 
                         count={Number(sessionStorage.getItem(`prod-id${prod.id}`))}/>)}
+                    {data2
+                    .filter(prod=>Number(sessionStorage.getItem(`prod-id${prod.id}`)) > 0)
+                    .map(prod => <CartItem data={prod} key={prod.id} 
+                        count={Number(sessionStorage.getItem(`prod-id${prod.id}`))}/>)}
                 </div>
                 <div className="cart__all__check">
                     <div className="cart__all__check__money">
@@ -25,6 +28,8 @@ export default function Cart(props) {
                         </div>
                         <div className="cart__all__check__money__count">
                             ₽ {data.reduce((prev, cur) => prev += 
+                                cur.price * Number(sessionStorage.getItem(`prod-id${cur.id}`)), 0) +
+                                data2.reduce((prev, cur) => prev += 
                                 cur.price * Number(sessionStorage.getItem(`prod-id${cur.id}`)), 0)}
                         </div>
                     </div>
