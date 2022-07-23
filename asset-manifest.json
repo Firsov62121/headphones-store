@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/headphones-store/static/css/main.72886940.css",
+    "main.js": "/headphones-store/static/js/main.b21938f4.js",
+    "static/js/787.5321f4d1.chunk.js": "/headphones-store/static/js/787.5321f4d1.chunk.js",
+    "static/media/montserrat-all-400-normal.woff": "/headphones-store/static/media/montserrat-all-400-normal.aa917f2f47304e192c88.woff",
+    "static/media/montserrat-latin-400-normal.woff2": "/headphones-store/static/media/montserrat-latin-400-normal.f2d2ef7bf6fc24bddc8f.woff2",
+    "static/media/montserrat-latin-ext-400-normal.woff2": "/headphones-store/static/media/montserrat-latin-ext-400-normal.75ba6196d4ce0a73d699.woff2",
+    "static/media/montserrat-cyrillic-ext-400-normal.woff2": "/headphones-store/static/media/montserrat-cyrillic-ext-400-normal.d2bdc151bae5b3d2d100.woff2",
+    "static/media/montserrat-cyrillic-400-normal.woff2": "/headphones-store/static/media/montserrat-cyrillic-400-normal.9c4cf182194c27761650.woff2",
+    "static/media/vk.svg": "/headphones-store/static/media/vk.200332db80feb34aac09a5f6d7d91e63.svg",
+    "static/media/montserrat-vietnamese-400-normal.woff2": "/headphones-store/static/media/montserrat-vietnamese-400-normal.69611381dc5e4dd3b448.woff2",
+    "static/media/whatsapp.svg": "/headphones-store/static/media/whatsapp.8dc15f232a985aef74ed03315e7a3148.svg",
+    "static/media/earth.svg": "/headphones-store/static/media/earth.efb32b68e3d99eb17b5cfe06d1b78a78.svg",
+    "static/media/cart.svg": "/headphones-store/static/media/cart.0755738f949b36eb371956870cd1c963.svg",
+    "static/media/tg.svg": "/headphones-store/static/media/tg.5975f82d977c4679decb992075dc9bdf.svg",
+    "static/media/del.svg": "/headphones-store/static/media/del.c3b466f51641c238a464efcaaee70ebf.svg",
+    "index.html": "/headphones-store/index.html",
+    "static/media/heart.svg": "/headphones-store/static/media/heart.93e16e12c7f65e8a049a7da40e5cf4ca.svg",
+    "static/media/plus.svg": "/headphones-store/static/media/plus.84c73fd43d293d5dac69d3c0e38ee348.svg",
+    "static/media/minus.svg": "/headphones-store/static/media/minus.9d117fccdac8e08d9d51e2294c0daa67.svg",
+    "main.72886940.css.map": "/headphones-store/static/css/main.72886940.css.map",
+    "main.b21938f4.js.map": "/headphones-store/static/js/main.b21938f4.js.map",
+    "787.5321f4d1.chunk.js.map": "/headphones-store/static/js/787.5321f4d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72886940.css",
+    "static/js/main.b21938f4.js"
+  ]
+}
