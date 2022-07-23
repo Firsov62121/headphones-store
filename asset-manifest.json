@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/headphones-store/static/css/main.72886940.css",
-    "main.js": "/headphones-store/static/js/main.b21938f4.js",
+    "main.js": "/headphones-store/static/js/main.aceaaa32.js",
     "static/js/787.5321f4d1.chunk.js": "/headphones-store/static/js/787.5321f4d1.chunk.js",
     "static/media/montserrat-all-400-normal.woff": "/headphones-store/static/media/montserrat-all-400-normal.aa917f2f47304e192c88.woff",
     "static/media/montserrat-latin-400-normal.woff2": "/headphones-store/static/media/montserrat-latin-400-normal.f2d2ef7bf6fc24bddc8f.woff2",
@@ -20,11 +20,11 @@
     "static/media/plus.svg": "/headphones-store/static/media/plus.84c73fd43d293d5dac69d3c0e38ee348.svg",
     "static/media/minus.svg": "/headphones-store/static/media/minus.9d117fccdac8e08d9d51e2294c0daa67.svg",
     "main.72886940.css.map": "/headphones-store/static/css/main.72886940.css.map",
-    "main.b21938f4.js.map": "/headphones-store/static/js/main.b21938f4.js.map",
+    "main.aceaaa32.js.map": "/headphones-store/static/js/main.aceaaa32.js.map",
     "787.5321f4d1.chunk.js.map": "/headphones-store/static/js/787.5321f4d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72886940.css",
-    "static/js/main.b21938f4.js"
+    "static/js/main.aceaaa32.js"
   ]
 }
